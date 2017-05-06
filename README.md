@@ -1,5 +1,7 @@
 # NorthCollege 3D model display | 河北北方学院3D模型展示
 
+[安卓安装包下载](http://www.wandoujia.com/apps/com.suncat.virtual)
+
 ![](http://img.wdjimg.com/mms/screenshot/9/99/3c2a75ab3e2ce69ee683248bb8377999_569_320.jpeg)
 
 ![](http://img.wdjimg.com/mms/screenshot/1/15/2837a44f1f80665f7b08316ae8ac0151_569_320.jpeg)
