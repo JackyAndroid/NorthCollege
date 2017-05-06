@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E987DF48-8F67-D66E-B34D-B04E318635EB}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\ContinuousGestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\DiscreteGestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\FingerEventDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\GestureRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Base\GestureRecognizerDelegate.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Components\FingerClusterManager.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Components\ScreenRaycaster.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerDownDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerHoverDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerMotionDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Finger Event Detectors\FingerUpDetector.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\FingerGestures.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\DragRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\LongPressRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PinchRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PointCloudGestureTemplate.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\PointCloudRegognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\SwipeRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\TapRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Gesture Recognizers\TwistRecognizer.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGInputProvider.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGMouseInputProvider.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Input Providers\FGTouchInputProvider.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBDragView.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBLookAtTap.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBOrbit.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBPan.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\Camera\TBPinchZoom.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBDragToMove.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBHoverChangeMaterial.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBHoverChangeScale.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBPinchToScale.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBQuickSetup.cs" />
+     <Compile Include="Assets\Plugins\FingerGestures\Scripts\Toolbox\TBTwistToRotate.cs" />
+     <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\MeshContainer.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\PlanarReflection.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\SpecularLighting.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterBase.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\WaterTile.cs" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\EasyTouch\Readme_first.txt" />
+     <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{FABCF80E-D89F-C6EE-6F5D-1E9640F114FC}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_IPHONE;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;UNITY_IPHONE_API;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;UNITY_IOS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>E:/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>E:/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\EasyTouch\Plugins\Editor\GUIEasyButtonCallBack.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Editor\GUIEasyButtonInspector.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Editor\GUIEasyJoystickCallBack.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Editor\GUIEasyJoystickInspector.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Editor\GUIEasyTouchInspector.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Editor\GUIEasyTouchMenu.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Editor\GUIEasytouchCallBack.cs" />
+     <Compile Include="Assets\EasyTouch\Plugins\Editor\HTEditorToolKit.cs" />
+     <Compile Include="Assets\Editor\Water (Pro Only)\Water4\GerstnerDisplaceEditor.cs" />
+     <Compile Include="Assets\Editor\Water (Pro Only)\Water4\PlanarReflectionEditor.cs" />
+     <Compile Include="Assets\Editor\Water (Pro Only)\Water4\SpecularLightingEditor.cs" />
+     <Compile Include="Assets\Editor\Water (Pro Only)\Water4\WaterBaseEditor.cs" />
+     <Compile Include="Assets\Editor\Water (Pro Only)\Water4\WaterEditorUtility.cs" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\EasyTouch\Readme_first.txt" />
+     <None Include="Assets\Plugins\FingerGestures\Readme.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
+     <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>Library\ScriptAssemblies\Assembly-UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>E:\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>E:\Editor\Data\PlaybackEngines\iPhonePlayer\EditorExtensions\UnityEditor.iOS.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WP8.Extensions">
+ <HintPath>E:\Editor\Data\PlaybackEngines\WP8Support\EditorExtensions\UnityEditor.WP8.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Metro.Extensions">
+ <HintPath>E:\Editor\Data\PlaybackEngines\MetroSupport\EditorExtensions\UnityEditor.Metro.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.BB10.Extensions">
+ <HintPath>E:\Editor\Data\PlaybackEngines\BB10Player\EditorExtensions\UnityEditor.BB10.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>E:\Editor\Data\PlaybackEngines\AndroidPlayer\EditorExtensions\UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{E987DF48-8F67-D66E-B34D-B04E318635EB}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{944C129A-FDCA-B684-1938-8EA463C209F4}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass-vs.csproj">
+      <Project>{13D0F9EF-2CC9-4948-7946-A01392CDEAEF}</Project>      <Name>Assembly-CSharp-Editor-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
