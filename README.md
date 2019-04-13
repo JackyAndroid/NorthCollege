@@ -1,4 +1,4 @@
-# NorthCollege 3D model display | 河北北方学院3D模型展示
+# NorthCollege 3D model display
 
 [安卓安装包下载](http://www.wandoujia.com/apps/com.suncat.virtual)
 
